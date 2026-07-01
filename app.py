@@ -1,4 +1,4 @@
-import flet as ft
+import flet as ft  # prueba con flet basado en flutter para python
 
 async def main(page: ft.Page):
     page.title = "Flet (GUI)"
