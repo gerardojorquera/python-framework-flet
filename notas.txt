@@ -1,0 +1,16 @@
+Solucion al parpadeo modo de escritorio nativo:
+===============================================
+
+1) Cambiar de escritorio a web:
+# Cambia esto:
+ft.app(target=main)
+
+# Por esto otro:
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+
+2) No ejecutar con el boton play de vscode, sino que a traves de la terminal:
+   python <app.py>
+
+3) Volver a una version anterior de flet:
+pip uninstall flet flet-desktop
+pip install flet==0.28.3
