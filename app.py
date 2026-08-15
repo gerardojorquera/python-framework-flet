@@ -1,4 +1,9 @@
+import os
 import flet as ft  # prueba con flet basado en flutter para python 123
+
+
+# Forzar a Flutter a usar renderizado por software si es necesario
+os.environ["FLUTTER_RENDERER"] = "software" 
 
 async def main(page: ft.Page):
     page.title = "Flet (GUI)"
